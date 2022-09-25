@@ -1,0 +1,106 @@
+{
+    "workbench.colorTheme": "Ayu Dark",
+    "redhat.telemetry.enabled": false,
+    "quarkus.tools.debug.terminateProcessOnExit": "Ask",
+    "go.toolsManagement.autoUpdate": true,
+    "scss.lint.unknownAtRules": "ignore",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.inactiveForeground": "#19f9d8",
+        "activityBar.activeBorder": "#19f9d8",
+        "button.hoverBackground": "#19f9d7c7",
+        "dropdown.border": "#19f9d8",
+        "extensionButton.prominentBackground": "#19f9d8",
+        "extensionButton.prominentHoverBackground": "#19f9d7c7",
+        "focusBorder": "#19f9d759",
+        "icon.foreground": "#00aa00",
+        "input.background": "#002b36",
+        "input.border": "#19f9d8",
+        "inputOption.activeBorder": "#19f9d8",
+        "inputValidation.errorBorder": "#19f9d8",
+        "inputValidation.infoBackground": "#002b36",
+        "inputValidation.infoBorder": "#19f9d8",
+        "panelTitle.activeBorder": "#19f9d8",
+        "statusBar.foreground": "#19f9d8",
+        "tab.activeBorder": "#19f9d8",
+        // "extensionIcon.verifiedForeground": "#ff0000",
+        "titleBar.activeBackground": "#000000",
+        "terminal.background": "#101010",
+        "terminal.foreground": "#B9B9B9",
+        "terminalCursor.background": "#B9B9B9",
+        "terminalCursor.foreground": "#B9B9B9",
+        "terminal.ansiBlack": "#101010",
+        "terminal.ansiBlue": "#686868",
+        "terminal.ansiBrightBlack": "#525252",
+        "terminal.ansiBrightBlue": "#686868",
+        "terminal.ansiBrightCyan": "#00ffff",
+        "terminal.ansiBrightGreen": "#19f9d8",
+        "terminal.ansiBrightMagenta": "#747474",
+        "terminal.ansiBrightRed": "#7C7C7C",
+        "terminal.ansiBrightWhite": "#F7F7F7",
+        "terminal.ansiBrightYellow": "#A0A0A0",
+        "terminal.ansiCyan": "#868686",
+        "terminal.ansiGreen": "#8E8E8E",
+        "terminal.ansiMagenta": "#747474",
+        "terminal.ansiRed": "#19f9d8",
+        "terminal.ansiWhite": "#B9B9B9",
+        "terminal.ansiYellow": "#A0A0A0"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": []
+    },
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu20.04LTS (WSL)": {
+            "path": "C:\\windows\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu20.04LTS"
+            ]
+        }
+    },
+    // "terminal.integrated.defaultProfile.windows": "Ubuntu20.04LTS (WSL)",
+    "dart.debugExternalPackageLibraries": true,
+    "dart.debugSdkLibraries": false,
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "css.lint.unknownAtRules": "ignore",
+    "workbench.iconTheme": "vscode-icons",
+    "remote.SSH.remotePlatform": {
+        "192.168.1.8": "linux"
+    },
+    "rsp-ui.enableStartServerOnActivation": [
+        {
+            "id": "redhat.vscode-community-server-connector",
+            "name": "Community Server Connector",
+            "startOnActivation": true
+        }
+    ],
+    "window.menuBarVisibility": "compact",
+    "terminal.integrated.fontFamily": "MesloLGM NF"
+}
